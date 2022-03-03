@@ -17,3 +17,12 @@ def test_buzz_with_divisable_1():
 
 def test_buzz_with_divisable_1():
     assert fizzbuzz(-20) == "Buzz"
+
+def test_fizz_with_divisable_1():
+    assert fizzbuzz(3) == "Fizz"
+
+def test_fizz_with_divisable_1():
+    assert fizzbuzz(6) == "Fizz"
+
+def test_fizz_with_divisable_1():
+    assert fizzbuzz(-9) == "Fizz"
