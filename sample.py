@@ -5,4 +5,5 @@ def fizzbuzz(integer):
         return "Buzz"
     if integer % 5 != 0 and integer % 3 == 0:
         return "Fizz"
-
+    else:
+        return integer

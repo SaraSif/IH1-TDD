@@ -26,3 +26,14 @@ def test_fizz_with_divisable_1():
 
 def test_fizz_with_divisable_1():
     assert fizzbuzz(-9) == "Fizz"
+
+def test_fizzbuzz_with_indivisable_1():
+    assert fizzbuzz(13) == 13
+
+def test_fizzbuzz_with_indivisable_1():
+    assert fizzbuzz(17) == 17
+
+def test_fizzbuzz_with_indivisable_1():
+    assert fizzbuzz(-22) == 22
+    
+
